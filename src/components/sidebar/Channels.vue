@@ -1,31 +1,25 @@
 <template>
-    
-    <div class="channels box">
+  <div class="channels box">
+    <p class="ui inverted center aligned">Anywear</p>
+    <connected-user></connected-user>
 
-      <p class="ui inverted center aligned">Channels</p>
-      <connected-user></connected-user>
+    <discuss></discuss>
 
-      <discuss></discuss>
-      
-
-      <div class="ui dividers"></div>
-      <users></users>
-
-    </div>
-
+    <div class="ui dividers"></div>
+    <users></users>
+  </div>
 </template>
 
 
 <script>
-
-import ConnectedUser from './ConnectedUser'
-import Discuss from './Discuss'
-import Users from './Users'
+import ConnectedUser from "./ConnectedUser";
+import Discuss from "./Discuss";
+import Users from "./Users";
 
 export default {
-  name: 'Channels',
+  name: "Channels",
   components: { ConnectedUser, Discuss, Users }
-}
+};
 </script>
 
 
@@ -37,6 +31,6 @@ export default {
 }
 
 .channels {
-  background-color: #52364E;
+  background-color: #52364e;
 }
 </style>

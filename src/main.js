@@ -43,7 +43,7 @@ Vue.config.productionTip = false
 /* eslint-disable no-new */
 
 
-const unsuscribe = firebase.auth().onAuthStateChanged( user => {
+const unsuscribe = firebase.auth().onAuthStateChanged(user => {
 
   store.dispatch('setUser', user)
 
