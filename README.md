@@ -1,4 +1,4 @@
-# messager
+# Anywear
 
 > A vue.js Project to make people chat and socialize
 
